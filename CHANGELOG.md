@@ -1,6 +1,11 @@
 # Changelog
 
 
+### 3.11.2
+
+* Meson: Pin `ninja` version to 1.10.2.4 to avoid segfault in Linux using `ninja` latest version 1.11.1 due to a bug in Meson (PR #948).
+
+
 ### 3.11.1
 
 * `ActiveSpeakerObserver`: Revert 'dominantspeaker' event changes in PR #941 to avoid breaking changes (PR #947).
