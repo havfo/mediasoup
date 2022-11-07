@@ -1,3 +1,5 @@
+Fork to support agressive ICE nomination: https://github.com/versatica/mediasoup/issues/650
+
 # mediasoup v3
 
 [![][mediasoup-banner]][mediasoup-website]
