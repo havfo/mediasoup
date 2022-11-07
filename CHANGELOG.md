@@ -1,9 +1,14 @@
 # Changelog
 
 
+### 3.11.3
+
+* `ChannelMessageHandlers`: Make `RegisterHandler()` not remove the existing handler if another one with same `id` is given (PR #952).
+
+
 ### 3.11.2
 
-* Meson: Pin `ninja` version to 1.10.2.4 to avoid segfault in Linux using `ninja` latest version 1.11.1 due to a bug in Meson (PR #948).
+* Fix installation issue in Linux due to a bug in ninja latest version 1.11.1 (PR #948).
 
 
 ### 3.11.1
