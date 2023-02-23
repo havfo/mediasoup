@@ -1,6 +1,6 @@
 {
   "name": "mediasoup",
-  "version": "3.11.5",
+  "version": "3.11.10",
   "description": "Cutting Edge WebRTC Video Conferencing",
   "contributors": [
     "Iñaki Baz Castillo <ibc@aliax.net> (https://inakibaz.me)",
@@ -20,23 +20,23 @@
   "main": "node/lib/index.js",
   "types": "node/lib/index.d.ts",
   "files": [
-    "npm-scripts.js",
     "node/lib",
+    "worker/deps/libwebrtc",
+    "worker/fuzzer/include",
+    "worker/fuzzer/src",
+    "worker/include",
+    "worker/scripts/*.js",
+    "worker/scripts/*.json",
+    "worker/scripts/*.py",
+    "worker/scripts/*.sh",
+    "worker/src",
+    "worker/subprojects/*.wrap",
+    "worker/test/include",
+    "worker/test/src",
     "worker/Makefile",
     "worker/meson.build",
     "worker/meson_options.txt",
-    "worker/src",
-    "worker/include",
-    "worker/test/src",
-    "worker/test/include",
-    "worker/fuzzer/src",
-    "worker/fuzzer/include",
-    "worker/subprojects/*.wrap",
-    "worker/deps/libwebrtc",
-    "worker/scripts/*.py",
-    "worker/scripts/*.sh",
-    "worker/scripts/*.js",
-    "worker/scripts/*.json"
+    "npm-scripts.js"
   ],
   "keywords": [
     "webrtc",
@@ -92,19 +92,19 @@
   },
   "devDependencies": {
     "@types/debug": "^4.1.7",
-    "@types/jest": "^29.2.5",
-    "@types/node": "^18.11.18",
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.0",
     "@types/uuid": "^9.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.48.1",
-    "@typescript-eslint/parser": "^5.48.1",
-    "eslint": "^8.32.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
     "eslint-plugin-jest": "^27.2.1",
-    "jest": "^29.3.1",
+    "jest": "^29.4.3",
     "open-cli": "^7.1.0",
     "pick-port": "^1.0.1",
     "sctp": "^1.0.0",
     "ts-jest": "^29.0.5",
     "tsc-watch": "^6.0.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.5"
   }
 }
